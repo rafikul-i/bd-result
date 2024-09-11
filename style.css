@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: Verdana, helvetica, arial, sans-serif !important;
+    /* padding: 50px 0; */
+    background: #EEEEEE !important;
+}
+
+.edu-wraper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.edu-continer {
+    background: #fff;
+    width: 640px;
+    border-radius: 3px;
+    margin: 10px 0 0 30px;
+    padding: 10px;
+
+}
+
+.edu-header {
+    display: flex;
+}
+
+.edu-header .header-logo {
+    background: #EEEEEE;
+    width: 145px;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+/* .header-logo  img{
+    width: 50px;
+} */
+
+.edu-header .header-info {
+    background: #137814;
+    border-radius: 0px 10px 0px 0px;
+    margin-left: 2px;
+}
+
+.header-info .header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-info .header-top h2 {
+    color: #95e17d;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 10px 10px 0px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.header-info hr {
+    margin: 0px;
+    border-top: 1px solid#95e17d;
+    margin-bottom: 0px;
+}
+
+.header-info h2 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    margin-left: 4px;
+}
+
+.header-info p {
+    font-size: 10px;
+    background-image: linear-gradient(rgb(134, 199, 117), rgb(64, 180, 36), rgb(196, 243, 183));
+    text-align: left;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: right;
+    cursor: pointer;
+    border-top: 1px solid #fff;
+}
+
+.header-info p:hover {
+    color: #95e17d;
+}
+
+/* edu body */
+.edu-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.edu-body .result-form {
+    width: 450px;
+    border: 1.5px solid #333;
+    padding: 20px 50px;
+}
+
+.edu-body .result-form .form-fields-row {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.edu-body .result-form .form-fields-row label {
+    width: 25%;
+}
+
+.edu-body .result-form .form-fields-row span {
+    margin-left: 10px;
+}
+
+/* .n-left{
+    margin-left: -7px;
+} */
+.edu-body .result-form .form-fields-row select {
+    margin-left: 30px;
+    width: 170px;
+    margin-bottom: 10px;
+    background: #EEEEEE;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.edu-body .result-form .form-fields-row input {
+    width: 170px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background: #EEEEEE;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.result-form .form-fields-row .left {
+    margin-left: 26px !important;
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-right: 49px;
+}
+
+.btns button {
+    padding: 0px 4px;
+    font-size: 13px;
+    border: 1px solid #292828;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.btns button:hover {
+    background: #e9e6e6;
+}
+
+.edu-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EEEEEE;
+    border-top: 4px solid rgb(64, 180, 36);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.edu-footer p {
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.edu-footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    gap: 15px;
+}
+
+li {
+    font-size: 10px;
+}
+
+/* Result Page */
+.result-sheet {
+    width: 100%;
+
+}
+
+.result-sheet h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.edu-student-info table {}
+
+.edu-student-info table tr {}
+
+.edu-student-info table tr td {
+    font-size: 12px;
+    font-weight: bold;
+    background: #EEEEEE;
+    border-bottom: 1px solid #fff;
+    padding: 3px;
+}
+
+.edu-student-info table tr td:first-child {
+    width: 75px;
+}
+
+.edu-student-info table tr td:nth-child(2) {
+    width: 150px;
+}
+
+.edu-student-info table tr td:nth-child(3) {
+    width: 130px;
+}
+
+.edu-student-info table tr td:nth-child(4) {
+    width: 264px;
+}
+
+.gpa-sheet table {
+    width: 100%;
+
+}
+
+.gpa-sheet h2 {
+    margin: 10px 0;
+}
+
+.gpa-sheet table tr {
+    border: 1px solid #fff;
+}
+
+.gpa-sheet table thead tr th {
+    background: #afb7be;
+    font-size: 11px;
+    padding: 3px;
+    /* text-transform: uppercase; */
+    border: 1px solid #fff;
+}
+
+.gpa-sheet table tbody tr td {
+    font-size: 12px;
+    padding: 3px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+
+.gpa-sheet table tbody tr:nth-child(odd) td {
+    background: #EEEEEE;
+}
+
+.gpa-sheet table tbody tr:nth-child(even) td {
+    background: #dee1e4;
+}
+
+.result-sheet a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* Admint Desint */
+.admit h1{
+    text-align:center;
+    margin-top:10px;
+    padding:10px 0;
+    font-size: 18px;
+    font-weight:600;
+    color:#292828
+
+}
+.admit-container {
+
+    width: 750px;
+    /* background: #fff;
+    border-radius: 5px; */
+    height: 50vh;
+    margin: auto;
+}
+.admit-container h2{
+font-size: 15px;
+font-weight: bold;
+background: #eae7e7;
+padding: 10px;
+}
+.admit button{
+    
+}
